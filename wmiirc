@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby1.8
+#!/usr/bin/env ruby
 # Bootloader for wmii configuration.
 #--
 # Copyright 2006 Suraj N. Kurapati
