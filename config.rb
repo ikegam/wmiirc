@@ -254,8 +254,8 @@ def load_config config_file
       'focuscolors' => fc,
       'normcolors'  => nc,
       'border'      => CONFIG['display']['border'],
-      'bar on'      => CONFIG['display']['bar'],
-      'colmode'     => CONFIG['display']['column']['mode'],
+#      'bar on'      => CONFIG['display']['bar'],
+#      'colmode'     => CONFIG['display']['column']['mode'],
       'grabmod'     => CONFIG['control']['grab'],
     }
 
