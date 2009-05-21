@@ -139,6 +139,12 @@ display:
           free, used, path = `df -h ~`.split.last(3)
           [path, used, 'used', free, 'free']
 
+    - bat_status:
+        refresh: 20
+        content: |
+          ret = `acpi -s`.gsub(',',"").split
+          [ret[3]]
+
     - system_load:
         refresh: 10
         content: |
