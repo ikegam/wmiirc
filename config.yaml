@@ -85,8 +85,9 @@ display:
     - /^pidgin:|:WeeChat\b/                                 : Chat
     - /\b(Liferea|GMail)\b/                                 : Mail
     - /:(Iceweasel|Gran Paradiso):.*\bRestore\b.*\bSession\b/ : Web
-    - /Iceweasel/ : web
+    - /Iceweasel/ : Web
     - /mlterm/ : Terminal
+    - /stalonetray/ : ZSystray
     - /jp\-or\-med\-orca\-jma/ : ~
 
   ##
